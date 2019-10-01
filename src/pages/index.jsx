@@ -63,40 +63,40 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Prashant Andani.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>Javascript Developer. I build scalable Web Applications with Javascript.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="AR Alphabets"
+            link="https://github.com/prashant-andani/ar-alphabets"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Mark up based Augmented Reality Web App
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
-          </ProjectCard>
-          <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
-          </ProjectCard>
-          <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Git Scene"
+            link="https://github.com/prashant-andani/git-scene"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Tool that provides an analysis of git repository.
+          </ProjectCard>
+          <ProjectCard
+            title="Solar System AR"
+            link="https://github.com/prashant-andani/Solar-System-AR"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            Solar System on Augmented Reality
+          </ProjectCard>
+          <ProjectCard
+            title="Git Trends"
+            link="https://github.com/prashant-andani/git-trends"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+            A Desktop PWA app that list trending repositories
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -118,18 +118,16 @@ const Index = () => (
         </AboutDesc>
       </About>
       <Contact offset={4}>
-        <Inner>
+        <Title>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:prashant.andani@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.github.com/prashant-andani">Github</a> &{' '}
+            <a href="https://www.twitter.com/prashant_andani">Twitter</a>
           </ContactText>
-        </Inner>
+        </Title>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          Built with love using <a href="https://www.gatsbyjs.org">Gatsby</a>
         </Footer>
       </Contact>
     </Parallax>
